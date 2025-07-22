@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+#sidebar{
+  height: 100vh;
+}
+
+#avatar{
+  height: 26px;
+  width: 26px;
+  object-fit: cover;
+}
+
+#avatar-div{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.header{
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+
+.header h2{
+  font-size: 24px;
+}
+
+.header img{
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  padding: 1rem 0.75rem 0.5rem 0.75rem;
+  max-height: 200px; /* limit container height */
+  overflow: hidden;  /* hide any overflow vertically */
+}
+
+.input-container textarea {
+  width: 100%;
+  min-height: 40px;
+  resize: none;
+  overflow-y: auto;
+  background-color: white;
+  color: black;
+  font-size: 0.875rem;
+  border: none;
+  outline: none;
+  line-height: 1.4;
+}
+
+.input-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.input-actions .invisible-text {
+  opacity: 0;
+}
+
+.input-actions button {
+  margin-left: 0.5rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-actions button:hover {
+  background-color: #333333;
+}
