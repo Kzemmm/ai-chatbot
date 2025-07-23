@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
-#sidebar{
+button:active{
+  background-color: #ddd;
+}
+
+textarea{
+  font-size: 18px;
+  height: 15px;
+}
+
+
+/* #sidebar{
   height: 100vh;
 }
 
@@ -52,8 +62,8 @@
   border-radius: 0.75rem;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   padding: 1rem 0.75rem 0.5rem 0.75rem;
-  max-height: 200px; /* limit container height */
-  overflow: hidden;  /* hide any overflow vertically */
+  max-height: 200px;
+  overflow: hidden; 
 }
 
 .input-container textarea {
@@ -91,4 +101,4 @@
 
 .input-actions button:hover {
   background-color: #333333;
-}
+} */
